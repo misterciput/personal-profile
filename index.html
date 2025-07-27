@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Zulfa Achsani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #fff;
+      --accent: #00ff94;
+      --muted: #888;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      background: #1a1a1a;
+      padding: 2rem;
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: 1px solid #2c2c2c;
+    }
+
+    .sidebar img {
+      width: 180px;
+      height: 180px;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+
+    .sidebar h1 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .sidebar p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .contact, .social {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .social a {
+      margin: 0 0.4rem;
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .hire-btn {
+      background-color: var(--accent);
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 2rem;
+      cursor: pointer;
+    }
+
+    .main {
+      flex: 1;
+      padding: 3rem;
+    }
+
+    .stats {
+      display: flex;
+      gap: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat {
+      font-size: 2rem;
+      color: var(--accent);
+    }
+
+    .label {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .about, .projects, .experience {
+      max-width: 800px;
+      margin-bottom: 3rem;
+    }
+
+    .about h2, .projects h2, .experience h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .experience-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .experience-item h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+
+    .experience-item p {
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .projects-button {
+      border: 2px solid var(--accent);
+      border-radius: 50%;
+      padding: 1rem;
+      color: var(--accent);
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 2rem;
+      transition: background 0.3s;
+    }
+
+    .projects-button:hover {
+      background: var(--accent);
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <img src="profile.jpg" alt="M. Zulfa Achsani">
+    <h1>M Zulfa Achsani</h1>
+    <p>Senior Software Engineer</p>
+    <div class="contact">
+      <p>zulfa@achsani.com</p>
+      <p>Amsterdam, NL</p>
+      <div class="social">
+  <a href="https://github.com/zulf4" target="_blank" aria-label="GitHub">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96" width="24" height="24" fill="currentColor">
+    <path d="M49 0C21.938 0 0 21.938 0 49c0 21.655 14.027 40.022 33.513 46.49 2.448.448 3.347-1.063 3.347-2.365 0-1.167-.042-4.256-.065-8.356-13.624 2.96-16.497-6.566-16.497-6.566-2.227-5.653-5.438-7.16-5.438-7.16-4.45-3.041.336-2.978.336-2.978 4.927.347 7.517 5.059 7.517 5.059 4.37 7.486 11.46 5.321 14.262 4.07.446-3.167 1.71-5.324 3.114-6.547-10.877-1.238-22.314-5.438-22.314-24.207 0-5.348 1.91-9.72 5.045-13.147-.508-1.239-2.188-6.223.481-12.974 0 0 4.119-1.32 13.505 5.025 3.918-1.09 8.12-1.635 12.294-1.655 4.172.02 8.374.565 12.296 1.655 9.38-6.345 13.493-5.025 13.493-5.025 2.674 6.751.995 11.735.487 12.974 3.14 3.427 5.033 7.799 5.033 13.147 0 18.813-11.462 22.952-22.367 24.157 1.76 1.524 3.327 4.518 3.327 9.102 0 6.57-.058 11.867-.058 13.484 0 1.31.884 2.837 3.374 2.356C84 89.014 98 70.648 98 49 98 21.938 76.062 0 49 0Z"/>
+  </svg>
+</a>
+  <a href="https://linkedin.com/in/m-zulfa-achsani-72b6b8106" target="_blank" aria-label="LinkedIn">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="24" height="24" fill="currentColor">
+    <path d="M34,17C34,7.6,26.4,0,17,0S0,7.6,0,17c0,8.5,6.2,15.6,14.3,16.8v-11h-4.3v-5.8h4.3v-3.7c0-4.3,2.6-6.6,6.4-6.6
+      c1.9,0,3.8,0.3,3.8,0.3v4.2h-2.1c-2.1,0-2.8,1.3-2.8,2.6v3.2h4.8l-0.8,5.8h-4v11C27.8,32.6,34,25.5,34,17z"/>
+  </svg>
+</a>
+</div>
+    </div>
+    
+    <button class="hire-btn">Mentorship & Collaboration</button>
+  </aside>
+
+  <main class="main">
+    <div class="stats">
+      <div>
+        <div class="stat">10+</div>
+        <div class="label">Years of Experience</div>
+      </div>
+      <div>
+        <div class="stat">4</div>
+        <div class="label">Companies Worked At</div>
+      </div>
+      <div>
+        <div class="stat">20+</div>
+        <div class="label">Projects</div>
+      </div>
+    </div>
+
+    <section class="about">
+      <h2>Say Hi from Zulfa, Software and Machine Learning Engineer</h2>
+      <p>
+Instructor and Mentor at Bangkit Academy led by Google, Tokopedia, Gojek, and Traveloka
+Talk about: Ads | Search Engines | Machine Learning | Cloud Computing | Software Engineering      </p>
+    </section>
+
+    <section class="experience">
+      <h2>Professional Experience</h2>
+      <div class="experience-item">
+        <h3>Adevinta – Senior Software Engineer</h3>
+        <p>2022 – Present, Amsterdam</p>
+      </div>
+      <div class="experience-item">
+        <h3>Traveloka – Engineering Lead, Machine Learning and Experimentation Platform</h3>
+        <p>2018 – 2022, Jakarta</p>
+      </div>
+      <div class="experience-item">
+        <h3>Tokopedia – Software Engineer</h3>
+        <p>2016 – 2018, Jakarta</p>
+      </div>
+      <div class="experience-item">
+        <h3>Carsurin – Application Developer</h3>
+        <p>2015 – 2016, Jakarta</p>
+      </div>
+    </section>
+
+    <!-- <section class="projects">
+      <h2>Highlighted Projects</h2>
+      <ul>
+        <li>BigQuery ML Automation – GCP & Vertex AI</li>
+        <li>ETL Pipeline for E-commerce</li>
+        <li>CI/CD for Cloud Data Warehousing</li>
+      </ul>
+      <a class="projects-button" href="#">↓ My Projects</a>
+    </section> -->
+  </main>
+
+</body>
+</html>
