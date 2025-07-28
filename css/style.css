@@ -334,7 +334,9 @@ header {
 #colorlib-testimony,
 #colorlib-progress,
 #colorlib-contact,
-#colorlib-about {
+#colorlib-about,
+#colorlib-education,
+#colorlib-accomplishments {
   padding: 10em 0;
   clear: both;
   position: relative; }
@@ -346,7 +348,9 @@ header {
     #colorlib-testimony,
     #colorlib-progress,
     #colorlib-contact,
-    #colorlib-about {
+    #colorlib-about,
+    #colorlib-education,
+    #colorlib-accomplishments {
       padding: 5em 0; } }
 
 .rotate {
